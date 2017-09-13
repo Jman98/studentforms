@@ -66,4 +66,9 @@ clearValues(): void{
   this.studYr = null;
 }
 
+onsubmit(regObject){
+  console.log(regObject);
+}
+
+
 }
